@@ -131,8 +131,9 @@ public class MyRadioGroup extends RadioGroup {
                         // 然后加上相应的列数加成。
                         // 策略就是最长的处于中间。
                         //如果需要调整RadioButton的左右距离，请调整此处x值即可。
-                        x = (mEveryColumnWidth - mEveryColumnMaxWidth[columnIndex])
-                                / 2 + columnIndex * mEveryColumnWidth;
+                        //x = (mEveryColumnWidth - mEveryColumnMaxWidth[columnIndex])
+                        //        / 2 + columnIndex * mEveryColumnWidth;
+                        x = 0;
                         if (i > 0 && columnIndex == 0) {
                             row++;
                         }
@@ -158,8 +159,9 @@ public class MyRadioGroup extends RadioGroup {
                         // 然后加上相应的列数加成。
                         // 策略就是最长的处于中间。
                         //如果需要调整RadioButton的左右距离，请调整此处x值即可。
-                        x = (mEveryColumnWidth - mEveryColumnMaxWidth[columnIndex])
-                                / 2 + columnIndex * mEveryColumnWidth;
+                        //x = (mEveryColumnWidth - mEveryColumnMaxWidth[columnIndex])
+                        //       / 2 + columnIndex * mEveryColumnWidth;
+                        x = 0;
                         if (i > 0 && columnIndex == 0) {
                             row++;
                         }
