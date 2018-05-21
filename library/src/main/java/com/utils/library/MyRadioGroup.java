@@ -1,4 +1,4 @@
-package com.example.library;
+package com.utils.library;
 
 import android.content.Context;
 import android.util.AttributeSet;

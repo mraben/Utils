@@ -1,4 +1,4 @@
-package com.example.administrator.utils;
+package com.utils.administrator.utils;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
