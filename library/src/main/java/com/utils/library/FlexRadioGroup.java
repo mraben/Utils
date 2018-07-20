@@ -11,8 +11,7 @@ import android.widget.RadioButton;
 import com.google.android.flexbox.FlexboxLayout;
 
 /**
- * @author zouyuanfeng
- * @version 16-10-20 11:34
+ *  * Description: 分列Radiogroup
  */
 
 public class FlexRadioGroup extends FlexboxLayout {
